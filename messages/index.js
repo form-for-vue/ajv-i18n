@@ -8,7 +8,7 @@
 
 module.exports = {
   // supported locales
-  _locales: ['en', 'cz', 'de', 'es', 'fr', 'hu', 'it', 'ja', 'no', 'pl', 'pt-BR', 'ru', 'sk', 'sv', 'zh'],
+  _locales: ['en', 'cz', 'de', 'es', 'fa', 'fr', 'hu', 'it', 'ja', 'no', 'pl', 'pt-BR', 'ru', 'sk', 'sv', 'zh'],
 
   // shared defines
   _defs: {
@@ -285,6 +285,7 @@ module.exports = {
     cz: '{{#def.n}}nesmí být delší než {{=n}} znak{{? n!=1 }}ů{{?}}',
     de: '{{#def.n}}sollte nicht länger als {{=n}} Zeichen sein',
     es: '{{#def.n}}no debe contener más de {{=n}} caracter{{? n!=1 }}es{{?}}',
+    // fa: 'نباید بیشتر از {{=n}} کاراکتر باشد{{#def.mPlural}} {{#def.n}}',
     fr: '{{#def.n}}ne doit pas dépasser {{=n}} caractère{{#def.mPlural}}',
     hu: '{{#def.n}}nem lehet hosszabb, mint {{=n}} szimbólum',
     it: '{{#def.n}}non dovrebbe essere più lungo di {{=n}} caratter{{? n==1 }}e{{??}}i{{?}}',
@@ -445,6 +446,7 @@ module.exports = {
     cz: 'musí mýt požadovanou položku {{=e.params.missingProperty}}',
     de: 'sollte das erforderliche Attribut {{=e.params.missingProperty}} enthalten',
     es: 'debe tener la propiedad requerida {{=e.params.missingProperty}}',
+    fa: 'فیلد الزامی',
     fr: 'requiert la propriété {{=e.params.missingProperty}}',
     hu: 'kell legyen {{=e.params.missingProperty}} tulajdonsága',
     it: 'dovrebbe avere attributo richiesta {{=e.params.missingProperty}}',
@@ -468,6 +470,7 @@ module.exports = {
     cz: 'musí být {{=e.params.type}}',
     de: 'sollte sein: {{=e.params.type}}',
     es: 'debe ser {{=e.params.type}}',
+    fa: 'فیلد باید {{=e.params.type}} باشد',
     fr: 'doit être de type {{=e.params.type}}',
     hu: '{{=e.params.type}} kell legyen',
     it: 'dovrebbe essere {{=e.params.type}}',

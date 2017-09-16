@@ -4,6 +4,7 @@ module.exports = {
     cz: require('./cz'),
     de: require('./de'),
     en: require('./en'),
+    fa: require('./fa'),
     fr: require('./fr'),
     es: require('./es'),
     hu: require('./hu'),
