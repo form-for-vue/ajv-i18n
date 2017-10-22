@@ -1,5 +1,5 @@
 {
-  "name": "ajv-i18n",
+  "name": "@ffvjs/ajv-i18n",
   "version": "2.1.0",
   "description": "Internationalised error messages for ajv JSON-Schema validator",
   "main": "localize/index.js",
